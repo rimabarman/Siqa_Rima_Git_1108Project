@@ -7,6 +7,10 @@ packages:
   gitUrl: https://github.com/rimabarman
   gitUsername: rimabarman
   gitBranch: main
+- name: WmJDBCAdapter
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
+  wpmVersion: latest
 services:
 - serviceName: project.siqa_rima_git_1108.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1_Rima
   packages:
@@ -27,10 +31,10 @@ services:
 configurationVariables:
   ? artConnection.Siqa_Rima_Git_1108Project.project.siqa_rima_git_1108.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1_Rima.connectionSettings.password
   : "{AES}D6/2AGfsSWDOcWCLrORnEQ=="
-  ? artConnection.Siqa_Rima_Git_1108Project.project.siqa_rima_git_1108.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1_Rima.connectionManagerSettings.startupRetryCount
-  : "0"
   ? artConnection.Siqa_Rima_Git_1108Project.project.siqa_rima_git_1108.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1_Rima.connectionManagerSettings.poolIncrementSize
   : "1"
+  ? artConnection.Siqa_Rima_Git_1108Project.project.siqa_rima_git_1108.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1_Rima.connectionManagerSettings.startupRetryCount
+  : "0"
   ? artConnection.Siqa_Rima_Git_1108Project.project.siqa_rima_git_1108.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1_Rima.connectionManagerSettings.startupBackoffSecs
   : "10"
   ? artConnection.Siqa_Rima_Git_1108Project.project.siqa_rima_git_1108.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1_Rima.connectionSettings.portNumber
