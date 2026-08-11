@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Rima.Barman@ibm.com</value>
-    <value name="createdDate">1786457968012</value>
-    <value name="lastModifiedDate">2026-08-11T14:19:28.012722778Z</value>
+    <value name="lastModifiedBy">Rima.Barman@ibm.com</value>
+    <value name="lastModifiedDate">2026-08-11T14:25:48.428590222Z</value>
     <value name="displayName">SIQAAdapterFlow</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -61,11 +60,11 @@
         <value name="name">Database</value>
         <value name="itemType">APPS</value>
         <record name="operation" javaclass="com.wm.util.Values">
-          <value name="operationName">TestDBConn</value>
+          <value name="operationName">TestDB</value>
           <value name="isCustom">true</value>
           <value name="operationType">actions</value>
           <value name="connectionType">sagcloud</value>
-          <value name="projectName">project.testman2603</value>
+          <value name="projectName">project.siqa_rima_git_1108</value>
         </record>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
         <value name="providerName">WmJDBCAdapter</value>
@@ -73,11 +72,11 @@
         <value name="appType">predefined</value>
         <Boolean name="hasAccount">true</Boolean>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">Database2603</value>
+          <value name="connectionName">Database_1_Rima</value>
           <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.siqa_rima_git_1108.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database2603</value>
+        <value name="connectionNSName">project.siqa_rima_git_1108.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1_Rima</value>
         <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
         <value name="type">Adapters</value>
         <value name="version">1.0</value>
@@ -112,12 +111,8 @@
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="outputMapSet"/>
+        <value name="nodePathForDebug">0</value>
       </record>
-    </record>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
     </record>
     <value name="modifiedBy">Rima.Barman@ibm.com</value>
   </record>
